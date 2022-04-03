@@ -1,0 +1,164 @@
+body {
+    background-image: url("../images/diamond-upholstery.png");
+    background-color: beige;
+}
+   
+
+ul {
+    margin:auto;
+    padding: 0;
+    position: relative;
+}
+
+nav {
+    font-family:"Righteous", sans-serif;
+    background-color: dodgerblue;
+    text-align: center;
+    line-height:75px;
+    font-size: 50px;
+
+}
+nav:hover {
+    background-color: cornflowerblue;
+    transition: 1s;
+    color:white;
+    
+    
+}
+    
+
+h1 {
+    font-family: "Righteous", sans-serif;
+    text-align: center;
+    font-size: 35px;
+   
+}
+
+img {
+    border: solid 3px;
+    border-color: lightgray;
+    
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+    font-family: "Concert One", sans-serif;
+   
+}
+
+p {
+    font-family: "Arial", sans-serif;
+    line-height: 1.5;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.right {
+    display: inline-block;
+    float:right;
+    margin: 0px;
+    margin-left: 4px;
+    
+    
+}
+
+.center {
+    text-align: center;
+    
+}
+ .side-pic {      
+    width:90%;
+    border: solid 3px;
+    border-color: lightgray;
+    margin-top: 20px;
+   
+} 
+.text-top {
+    display:inline-block;
+    margin-left:5px;
+    vertical-align: top;
+    margin-top: 4%;
+    ;
+}
+.rounded-pic {
+    width:60%;
+    margin-left:20%;
+    border-radius: 30%;
+    border: solid 3px lightgray;
+            }
+
+.text {
+    margin-left: 10%;
+    margin-right: 10%;
+    word-wrap: break-word;
+    line-height: 1.5;
+}
+
+.imagesize{
+    width: 100%;
+}
+
+.imgmargin{
+     margin-top: 100px;
+}
+  
+@keyframes growBye {
+    0% {width: 300px;}
+    50% {width: 600px;}
+    100% {width: 300px;}
+}       
+.moona {
+    animation: growBye 5s infinite alternate;
+    }
+.together{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+#noborder {
+    border-color:transparent;
+}
+
+@keyframes growBtn{
+    0%{width 70px;}
+    100%{width 100px;}
+}
+#topBtn{
+    position: fixed;
+    bottom:20px;
+    float:right;
+    right:18.5%;
+    left:90.25%;
+    max-width: 100px;
+    width: 100%;
+    font-size: 20px;
+    border-color:lightgrey;
+    background-color:beige;
+    border-radius: 6px;
+    transition: all 0.5s;
+}
+#topBtn:hover {
+    background-color:white;
+    transform: translateY(-15px);
+}
+
+
+    
+
+
+
+
+    
+
+
+
+
+
+
